@@ -19,7 +19,7 @@ struct Clock: View {
     @State private var reciever = Timer.publish(every: 0.01, on: .current, in: .default).autoconnect()
     
     var body: some View {
-        VStack {
+        VStack(spacing: 70) {
             ZStack {
                 Circle()
                     .fill(Color(UIColor.systemGray5))
@@ -46,6 +46,28 @@ struct Clock: View {
                 
                 Second()
                     .rotationEffect(.degrees((Double(currentTime.millisecond) / 100 + Double(currentTime.second)) * 6))
+            }
+            
+            HStack(spacing: 0) {
+                Text("\(currentTime.hour)")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                Text(":")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                Text("\(currentTime.minute)")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                Text(":")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                
+                Text("\(currentTime.second)")
+                    .font(.largeTitle)
+                
             }
         }
         .onAppear() {
