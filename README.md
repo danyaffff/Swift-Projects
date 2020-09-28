@@ -2,11 +2,11 @@
 #### [Analog Clock](https://github.com/danyaffff/Swift-Projects/tree/master/Analog%20Clock)
 Это приложение показывает аналоговые часы. Приложение написано на  Swift с использованием фреймфорка SwiftUI.
 
-#### [Movie App](https://github.com/danyaffff/Swift-Projects/tree/master/Movie%20App)
-Это приложение для записи, редактирования и удаления фильмов (текстовых полей). Приложение написано на Swift с использованием фреймворков UIKit и CoreData.
-
 #### [Audio player interface](https://github.com/danyaffff/Swift-Projects/tree/master/Audio%20player%20interface)
 Это приложение, реализующее интерфейс плеера с возможностью проигрывания музыки. Приложение написано на Swift с использованием фреймворков SwiftUI и AVKit.
+
+#### [Movie App](https://github.com/danyaffff/Swift-Projects/tree/master/Movie%20App)
+Это приложение для записи, редактирования и удаления фильмов (текстовых полей). Приложение написано на Swift с использованием фреймворков UIKit и CoreData.
 
 #### [SailsJS](https://github.com/danyaffff/Swift-Projects/tree/master/SalesJS)
 Это приложение для записи и удаления пользователей (логин и пароль) на локальном сервере. Приложение написано на Swift с использованием фреймворка SwiftUI, локальный сервер ставился через SailsJS (необходимые файлы внутри).
