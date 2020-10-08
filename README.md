@@ -5,6 +5,9 @@
 #### [Audio player interface](https://github.com/danyaffff/Swift-Projects/tree/master/Audio%20player%20interface)
 Это приложение, реализующее интерфейс плеера с возможностью проигрывания музыки. Приложение написано на Swift с использованием фреймворков SwiftUI и AVKit.
 
+#### [Lissajous curve](https://github.com/danyaffff/Swift-Projects/tree/master/Lissajous%20curve)
+Это приложение для посрисования кривой Лиссажу в зависимости от заданных частот (по умолчанию используется сдвиг на π/2). Приложение написано на. Swift с использованием фреймворка SwiftUI.
+
 #### [Movie App](https://github.com/danyaffff/Swift-Projects/tree/master/Movie%20App)
 Это приложение для записи, редактирования и удаления фильмов (текстовых полей). Приложение написано на Swift с использованием фреймворков UIKit и CoreData.
 
